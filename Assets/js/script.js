@@ -160,3 +160,23 @@ $(function() {
 	});
 
 });
+
+var downloadImage = $('a.downloadImage');
+
+function showDownload(canvas){
+
+	downloadImage.off('click').click(function(){
+
+		// When the download link is clicked, get the
+		// DataURL of the image and set it as href:
+
+		var url = canvas.toDataURL("image/png;base64;");
+		downloadImage.attr('href', url);
+
+	}).fadeIn();
+
+}
+
+function hideDownload(){
+	downloadImage.fadeOut();
+}

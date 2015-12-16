@@ -1,21 +1,10 @@
-/*-------------------------
-	Simple reset
---------------------------*/
 
 
-*{
-	margin:0;
-	padding:0;
-}
-
-
-/*-------------------------
-	General Styles
---------------------------*/
+/* Overall Styles */
 
 
 html{
-	background: url('../img/background.jpg') center top no-repeat #141415;
+	background: url('http://www.photos-public-domain.com/wp-content/uploads/2011/04/natural-tan-canvas-fabric-texture.jpg') center top no-repeat #141415;
 }
 
 body{
@@ -38,13 +27,11 @@ section, footer, header{
 }
 
 
-/*----------------------------
-	Heading
------------------------------*/
+/* Heading */
 
 
 h1{
-	font: 48px/1 'Yanone Kaffeesatz', sans-serif;
+	font: 48px/1 'Arial Verdana', sans-serif;
 	font-weight:200;
 	color:#fff;
 	text-align:center;
@@ -58,9 +45,7 @@ h1 b{
 }
 
 
-/*----------------------------
-	The Photo
------------------------------*/
+/* The Photo */
 
 
 #photo{
@@ -77,7 +62,7 @@ h1 b{
 	text-transform: uppercase;
 	z-index: 1;
 	color: #ccc;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-family: 'Arial Verdana', sans-serif;
 	display: block;
 	font-size: 20px;
 	position: absolute;
@@ -101,9 +86,7 @@ h1 b{
 	opacity:0;
 }
 
-/*----------------------------
-	The Filters
------------------------------*/
+/* The Filters */
 
 
 
@@ -184,40 +167,35 @@ h1 b{
 	height: 45px;
 	top: 43px;
 	left: 51px;
-	background: url('../img/star.jpg') no-repeat;
+	background: url('http://wickcreative.com/wp-content/uploads/2014/06/checkmark.png') no-repeat;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.5);
 }
 
 /* The filters */
 
-#filters li #normal{		background-image:url('../img/filters/normal.jpg'); }
-#filters li #vintage{		background-image:url('../img/filters/vintage.jpg'); }
-#filters li #lomo{			background-image:url('../img/filters/lomo.jpg'); }
-#filters li #clarity{		background-image:url('../img/filters/clarity.jpg'); }
-#filters li #sinCity{		background-image:url('../img/filters/sinCity.jpg'); }
-#filters li #sunrise{		background-image:url('../img/filters/sunrise.jpg'); }
-#filters li #crossProcess{	background-image:url('../img/filters/crossProcess.jpg'); }
-#filters li #orangePeel{	background-image:url('../img/filters/orangePeel.jpg'); }
-#filters li #love{			background-image:url('../img/filters/love.jpg'); }
-#filters li #grungy{		background-image:url('../img/filters/grungy.jpg'); }
-#filters li #jarques{		background-image:url('../img/filters/jarques.jpg'); }
-#filters li #pinhole{		background-image:url('../img/filters/pinhole.jpg'); }
-#filters li #oldBoot{		background-image:url('../img/filters/oldBoot.jpg'); }
-#filters li #glowingSun{	background-image:url('../img/filters/glowingSun.jpg'); }
-#filters li #hazyDays{		background-image:url('../img/filters/hazyDays.jpg'); }
-#filters li #herMajesty{	background-image:url('../img/filters/herMajesty.jpg'); }
-#filters li #nostalgia{		background-image:url('../img/filters/nostalgia.jpg'); }
-#filters li #hemingway{		background-image:url('../img/filters/hemingway.jpg'); }
-#filters li #concentrate{	background-image:url('../img/filters/concentrate.jpg'); }
+#filters li #normal{		background-image:url('../img/filters/Normalimg.png'); }
+#filters li #vintage{		background-image:url('../img/filters/Vintageimg.png'); }
+#filters li #lomo{			background-image:url('../img/filters/Lomoimg.png'); }
+#filters li #clarity{		background-image:url('../img/filters/Clarityimg.png'); }
+#filters li #sinCity{		background-image:url('../img/filters/Sincityimg.png'); }
+#filters li #sunrise{		background-image:url('../img/filters/Sunriseimg.png'); }
+#filters li #crossProcess{	background-image:url('../img/filters/Crossprocessimg.png'); }
+#filters li #orangePeel{	background-image:url('../img/filters/Orangepeelimg.png'); }
+#filters li #love{			background-image:url('../img/filters/Loveimg.png'); }
+#filters li #grungy{		background-image:url('../img/filters/Grungyimg.png'); }
+#filters li #jarques{		background-image:url('../img/filters/Jarquesimg.png'); }
+#filters li #pinhole{		background-image:url('../img/filters/Pinholeimg.png'); }
+#filters li #oldBoot{		background-image:url('../img/filters/Oldbootimg.png'); }
+#filters li #glowingSun{	background-image:url('../img/filters/Glowingsunimg.png'); }
+#filters li #hazyDays{		background-image:url('../img/filters/Hazydaysimg.png'); }
+#filters li #herMajesty{	background-image:url('../img/filters/Hermajestyimg.png'); }
+#filters li #nostalgia{		background-image:url('../img/filters/Nostalgiaimg.png'); }
+#filters li #hemingway{		background-image:url('../img/filters/Hemingwayimg.png'); }
+#filters li #concentrate{	background-image:url('../img/filters/Concentrateimg.png'); }
 
 
 /* Custom scrollbars for webkit */
 
-#filterContainer ::-webkit-scrollbar {
-    height: 4px;
-	background-color: rgba(100,100,100,0.2);
-	border-radius: 2px;
-}
 
 /* Handle */
 #filterContainer ::-webkit-scrollbar-thumb {
@@ -286,49 +264,4 @@ footer h2 a{
 footer h2 i{
 	font-style:normal;
 	color:#888;
-}
-
-#tzine-download{
-	opacity:0.9;
-	background-color:#257691;
-	font-size:11px;
-	text-align:center;
-	text-transform:uppercase;
-	width:150px;
-	height:28px;
-	line-height:28px;
-	text-decoration:none !important;
-
-	display: inline-block;
-	border-radius: 2px;
-	color: #fff !Important;
-	font-weight: bold;
-	box-shadow: 0 -1px 2px #1e5e74 inset;
-
-	border-top:1px solid #26849c;
-
-	text-shadow:1px 1px 1px #1e6176;
-	margin-top:6px;
-}
-
-#tzine-download:hover{
-	opacity:1;
-}
-
-#tzine-actions{
-	position:absolute;
-	top:0;
-	width:500px;
-	right:50%;
-	margin-right:-420px;
-	text-align:right;
-}
-
-#tzine-actions iframe{
-	display: inline-block;
-	height: 21px;
-	width: 95px;
-	position: relative;
-	float: left;
-	margin-top: 11px;
 }
