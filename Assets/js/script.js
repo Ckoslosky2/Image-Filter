@@ -176,7 +176,3 @@ function showDownload(canvas){
 	}).fadeIn();
 
 }
-
-function hideDownload(){
-	downloadImage.fadeOut();
-}
