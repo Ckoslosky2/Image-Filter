@@ -1,6 +1,6 @@
 
 
-/* Overall Styles */
+/* styles */
 
 
 html{
@@ -27,7 +27,7 @@ section, footer, header{
 }
 
 
-/* Heading */
+/* headings */
 
 
 h1{
@@ -45,7 +45,7 @@ h1 b{
 }
 
 
-/* The Photo */
+/* The new Photo */
 
 
 #photo{
@@ -86,7 +86,7 @@ h1 b{
 	opacity:0;
 }
 
-/* The Filters */
+/* The sample Filters */
 
 
 
@@ -167,11 +167,10 @@ h1 b{
 	height: 45px;
 	top: 43px;
 	left: 51px;
-	background: url('checkmark.png') no-repeat;
 
 }
 
-/* The filters */
+/* The sample filter images filters */
 
 #filters li #normal{		background-image:url('../img/filters/Normalimg.png'); }
 #filters li #vintage{		background-image:url('../img/filters/Vintageimg.png'); }
@@ -208,3 +207,4 @@ h1 b{
 #topText {
 color: black;
 }
+
